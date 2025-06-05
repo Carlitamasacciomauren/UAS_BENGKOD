@@ -187,7 +187,7 @@ plt.show()
 # Kesimpulan tuning: GridSearchCV berhasil meningkatkan performa model Random Forest.
 
 # 5. Deployment (Streamlit)
-import joblib
+
 joblib.dump(best_rf, 'best_model.pkl')
 joblib.dump(scaler, 'scaler.pkl')
 
