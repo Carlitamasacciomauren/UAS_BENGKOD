@@ -8,9 +8,16 @@ Original file is located at
 """
 
 # 1. Exploratory Data Analysis (EDA)
+!pip install streamlit
+
+import streamlit as st
+import joblib
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+!pip install imblearn
 
 # Load data
 df = pd.read_csv("ObesityDataSet.csv")
