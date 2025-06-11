@@ -24,7 +24,7 @@ df = pd.read_csv("ObesityDataSet.csv")
 
 # Tampilkan beberapa baris pertama dan informasi umum
 print("\nHead of dataset:")
-display(df.head())
+st.write(df.head())
 print("\nDataset info:")
 print(df.info())
 print("\nDescriptive statistics:")
